@@ -1,0 +1,30 @@
+.card{
+    width: 250px;
+    height: 332px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+    transition: 0.5s;
+}
+.desc{
+    padding: 0 0 0 68px;
+}
+img{
+    width:250px;
+    height: 250px;
+    border-radius: 5px 5px 0 0;
+    transition: 0.5s;
+    border: 1px solid black;
+
+}
+.card:hover{
+    box-shadow: 0 8px 25px goldenrod;
+    margin: 50px;
+}
+h3{
+    font-family: Geneva;
+}
+p{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
