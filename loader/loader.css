@@ -1,0 +1,36 @@
+
+.container{
+    height: 500px;
+    width:500px;
+    
+}
+.outer{
+    height: 120px;
+    width: 120px;
+    background-color:whitesmoke;
+    border-radius: 50%;
+    border: 20px solid rgb(211, 211, 211);
+    border-top: 20px solid goldenrod;
+    animation: spin 2s linear infinite;
+
+}
+/* .inner{
+    height: 400px;
+    width: 400px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    position: relative;
+    top:50px;
+    left:50px;
+    
+    
+} */
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
