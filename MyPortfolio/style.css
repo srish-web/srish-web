@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+    color:aliceblue
+
+}
+.header{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:2px solid white ;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav{
+    display: flex;
+    width:40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.home, .about, .portfolio
+{
+    font-size: x-large;
+    font-family:Calibri;
+}
+button{
+    height: 30px;
+    width:90px;
+    border-radius: 5px 0px 5px 0px;
+    background-color: rgb(119, 10, 168);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.home a{
+    text-decoration: none;
+    color: rgb(183, 41, 163);
+    opacity: 0.8;
+}
+.home a:hover{
+    opacity: 1;
+}
+.name{
+    font-size: xx-large;
+    font-family: cursive;
+    position: relative;
+    left: 20px;
+    opacity: 0.85;
+}
+.name:hover{
+    opacity: 1;
+}
+.name::first-letter{
+    color: rgb(153, 22, 164);
+}
+h1{
+    color: color-mix(in srgb, blue, red);
+}
+.flex{
+    display: flex;
+    /* background-color: blueviolet; */
+    height: 40rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.details{
+    /* background-color: green; */
+    width: 30%;
+    margin-bottom: 12rem;
+    margin-right: 5rem;
+    text-align: center;
+}
+.pic{
+    background-color: aliceblue;
+    height: 25rem;
+    width: 25rem;
+    /* border-top: 10px solid black; */
+    border-radius: 50%;
+    background-image: url(mypic.JPG);
+    background-size: cover;
+    /* margin-right: 15rem;
+    margin-bottom: 5rem;    */
+}
+.outer{
+    background-color: violet;
+    height: 25rem;
+    width: 25rem;
+    margin-right: 15rem;
+    margin-bottom: 5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:1rem solid violet;
+    /* animation: spin 2s linear infinite; */
+
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
