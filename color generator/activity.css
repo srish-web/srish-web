@@ -1,0 +1,27 @@
+*{
+    background-color: #ADE1E5 ;
+}
+.inner{
+    height: 200px;
+    width: 600px;
+    border:2px solid black;
+    background-color: aliceblue;
+}
+button{
+    border: 2px solid #73AB84;
+    background-color: #79C7C5;
+}
+.inner p {
+    text-align: center;
+    background-color: aliceblue;
+}
+.outer{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    color:darkcyan;
+}
