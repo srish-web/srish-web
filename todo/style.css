@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color:#BF9ACA;
+}
+.allEle{
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 10px;
+    color: #41393E;
+    border-radius: 10px;
+    /* border: 2px solid #00635D; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.listbox{
+    height: fit-content;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    margin-top: 10px;
+    padding: 10px;
+    background-color:#C7E8F3;
+    border: 2px solid #00635D;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#my {
+  height:auto ;
+  background-color: #853759; 
+  color: white;
+  padding: 8px 20px; 
+  border: none;
+  border-radius: 8px;
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+#my:hover {
+  background-color: #8b1749;
+}
+
+#my:active {
+  background-color: #670731; 
+}
+button{
+    border: none;
+    height: 17px;
+    background-color: #C7E8F3;
+    margin: 5px;
+}
+input[type="text"] {
+  padding: 5px 10px; 
+  margin: 8px 0; 
+  display: inline-block;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+}
+
+input[type="text"]:focus {
+  border: 2px solid #555;
+  background-color: lightblue;
+  
+}
