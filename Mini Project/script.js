@@ -13,6 +13,14 @@ document.addEventListener("keydown",function(){
     }
 
 });
+document.addEventListener("click",function(){
+    if(started == false){
+        started = true;
+        
+        levelUp();
+    }
+
+});
 
 function btnFlash(x){
     let colorclass = boxes[x].classList[1];
@@ -65,7 +73,12 @@ function btnPress(){
 
 }
 for(box of boxes){
+    // console.log(started);
+    if(started == false){
+        
         box.addEventListener("click", btnPress);
+    }
+        
 }
 function reset(){
     
