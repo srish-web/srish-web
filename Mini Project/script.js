@@ -13,8 +13,9 @@ document.addEventListener("keydown",function(){
     }
 
 });
-document.addEventListener("click",function(){
-    if(started == false){
+document.addEventListener("click",function(e){
+    console.dir();
+    if(started == false && e.target.classList[0]!="box"){
         started = true;
         
         levelUp();
