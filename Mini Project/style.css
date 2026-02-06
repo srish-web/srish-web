@@ -1,11 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+body{
     background-color: #608abd;
 }
-/* body{
-    background-color: #608abd;
-} */
+.bgcolor{
+    background-color: #ff0000;
+}
 .changeColor{
     background-color: #fff;
 }

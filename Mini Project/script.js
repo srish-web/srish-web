@@ -40,11 +40,12 @@ function check(idx){
     }
     else{
         title.innerHTML = `Game Over! Your score was <b>${level}</b><br> Press any key to start.`;
-        body.style.backgroundColor = "#ff0000";
+        body.classList.add("bgcolor");
         setTimeout(() => {
+            body.classList.remove("bgcolor");
             reset();
             
-        }, 250);
+        }, 150);
     }
     
 }
@@ -67,10 +68,11 @@ for(box of boxes){
         box.addEventListener("click", btnPress);
 }
 function reset(){
+    
     started = false;
     comp = [];
     user = [];
     level = 0;
-    body.style.backgroundColor = "#fff";
+    
     
 }
