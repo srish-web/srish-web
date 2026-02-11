@@ -1,0 +1,40 @@
+h1{
+    color: #f52936;
+}
+#login{
+    color: aliceblue;
+    background-color:darkmagenta;
+}
+#signup{
+    color:#fff;
+    background-color: #f52936;
+}
+input{
+    background-color: aqua;
+}
+input[type="text"]{
+    color: brown;
+}
+a{
+    color: chocolate;
+    text-decoration: wavy;
+}
+header ul a:hover{
+    text-decoration: none;
+    color: #f52936;
+}
+main h3{
+    color:blueviolet;
+    text-decoration: underline;
+}
+h3:hover{
+    text-decoration: none;
+}
+main p{
+    font-weight: bold;
+    color: crimson;
+}
+span>button{
+    background-color: yellowgreen;
+    color: darkblue;
+}
