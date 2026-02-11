@@ -23,9 +23,10 @@ h1{
     padding: 10px;
     color: #D8E1E9;
 }
-h3{
+h3, h4{
     color: #fff;
 }
+
 .outer{
     display: flex;
     align-items: center;

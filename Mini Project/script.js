@@ -1,10 +1,12 @@
 let title = document.querySelector("h3");
 let boxes = document.querySelectorAll(".box");
 let body = document.querySelector("body");
+let displayHighest = document.querySelector(".level");
 let comp = [];
 let user = [];
 let started = false;
 let level = 0;
+let highestlevel = 0;
 document.addEventListener("keydown",function(){
     if(started == false){
         started = true;
@@ -32,6 +34,7 @@ function btnFlash(x){
         }, 250);
 }
 function levelUp(){
+    highestlevel++;
     level++;
     user=[];
     title.innerText = `level ${level}`;
@@ -52,6 +55,10 @@ function check(idx){
         body.classList.add("bgcolor");
         setTimeout(() => {
             body.classList.remove("bgcolor");
+            if((displayHighest.innerText)<highestlevel){
+                displayHighest.innerText = highestlevel;
+            }
+            
             reset();
             
         }, 150);
@@ -87,6 +94,7 @@ function reset(){
     comp = [];
     user = [];
     level = 0;
+    highestlevel = 0;
     
     
 }
